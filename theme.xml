@@ -75,6 +75,7 @@ originally based on:	art from "Colorful" by viking
 		<CV1>Видео на весь экран (выключите оптимизацию видео vram)</CV1>
 		<CV2>Статичное видео (положите static.mp4 в videos)</CV2>
 		<ColorfulAnim>Colorful (с анимацией)</ColorfulAnim>
+		<ColorfulAnim4K>Colorful 4K (с анимацией)</ColorfulAnim4K>
 		<ColorfulAnimTransparent>Colorful (с анимацией, прозрачный)</ColorfulAnimTransparent>
 		<ColorfulNoAnim>Colorful (без анимации)</ColorfulNoAnim>
 		<Art2_169>Обои (RPi3, установите лимит VRAM на 80)</Art2_169>
@@ -166,6 +167,7 @@ originally based on:	art from "Colorful" by viking
 		<CV1>Vidéos plein écran (Désactivez optimiser la mémoire pour les vidéos)</CV1>
 		<CV2>Vidéos Static (put static.mp4 in videos)</CV2>
 		<ColorfulAnim>Colorful (animé)</ColorfulAnim>
+		<ColorfulAnim4K>Colorful 4K (animé)</ColorfulAnim4K>
 		<ColorfulNoAnim>Colorful (sans animation)</ColorfulNoAnim>
 		<Art2_169>Papier peint (RPi3, Fixez la mémoire vidéos à 80)</Art2_169>
 		<ColorfulViewName>Colorful (Verticalement)</ColorfulViewName>
@@ -229,6 +231,7 @@ originally based on:	art from "Colorful" by viking
 
 <!-- Вид систем -->
 	<include subset="systembackground" name="Colorful (anim)" displayName="${ColorfulAnim}">./_inc/systemviews/animate.xml</include>
+	<include subset="systembackground" name="Colorful 4K (anim)" displayName="${ColorfulAnim4K}">./_inc/systemviews/animate4k.xml</include>
 	<include subset="systembackground" name="Colorful (anim, transparent)" displayName="${ColorfulAnimTransparent}">./_inc/systemviews/animatetransparent.xml</include>
 	<include subset="systembackground" name="Colorful (no anim)" displayName="${ColorfulNoAnim}">./_inc/systemviews/noanimate.xml</include>
 	<include subset="systembackground" name="Darkful (anim)" displayName="${DarkfulAnim}">./_inc/systemviews/animatedark.xml</include>
